@@ -11,6 +11,13 @@
     mix-blend-mode: multiply;
 }
 
+.transformacion{
+    transition: all 2s;
+}
+
+.transformacion:hover{
+    transform: scale(1.2);
+}
 
 /*----GRID INDEX----*/
 .grillaIndex{
