@@ -4,6 +4,8 @@
     mix-blend-mode: multiply;
 }
 
+
+/*----BACKGROUNDS----*/
 .backgroundCrema{
     background-color: #FEF5ED;
 }
@@ -12,11 +14,24 @@
     background-color: #99a799;
 }
 
+
+/*----FUENTES----*/
+.fuenteNegra{
+    text-shadow: 2px 2px 2px #ADC2A9;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
 .fuenteBlanca{
     text-shadow: 2px 2px 2px #ADC2A9;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 
+
+/*----FORMATO LISTS----*/
 .sinDeco{
     text-decoration: none;
     color: black;
