@@ -1,0 +1,28 @@
+.remove-bg {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply; }
+
+.backgroundCrema {
+  background-color: #FEF5ED; }
+
+.backgroundVerde {
+  background-color: #99a799; }
+
+.fuenteNegra {
+  text-shadow: 2px 2px 2px #ADC2A9;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify; }
+
+.fuenteBlanca {
+  text-shadow: 2px 2px 2px #ADC2A9;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify; }
+
+.sinDeco {
+  text-decoration: none;
+  color: black; }
+
+.listaSinEstilo {
+  list-style: none; }
