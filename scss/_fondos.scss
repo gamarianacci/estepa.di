@@ -1,7 +1,11 @@
+@mixin fondo($colorFondo) {
+    background-color: $colorFondo;
+}
+
 .backgroundCrema{
-    background-color: $fondo-principal;
+    @include fondo(#FEF5ED);
 }
 
 .backgroundVerde{
-    background-color: $fondo-secundario;
+    @include fondo(#99a799);
 }
