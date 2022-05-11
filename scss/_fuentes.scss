@@ -1,16 +1,16 @@
 $fuentes: (
-    sombra: 2px 2px 2px,
+    sombra: 2px 2px 2px #ADC2A9,
     colorBlanco: white,
     colorNegro: black,
-    fuente: 'Open Sans', sans-serif,
+    fuente: 'Open Sans' sans-serif,
     justificado: justify,
 );
 
 .fuenteNegra{
-    text-shadow: map-get($estilos, $sombra);
-    color: map-get($estilos, $colorNegro);
-    font-family: map-get($estilos, $fuente);
-    text-align: map-get($estilos, $justificado);
+    text-shadow: map-get($fuentes, sombra);
+    color: map-get($fuentes, colorNegro);
+    font-family: map-get($fuentes, fuente);
+    text-align: map-get($fuentes, justificado);
 }
 
 .fuenteBlanca{

@@ -8,17 +8,14 @@
 .backgroundVerde {
   background-color: #99a799; }
 
-.fuenteNegra {
+.fuenteNegra, .fuenteBlanca {
   text-shadow: 2px 2px 2px #ADC2A9;
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans" sans-serif;
   text-align: justify; }
 
 .fuenteBlanca {
-  text-shadow: 2px 2px 2px #ADC2A9;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  text-align: justify; }
+  color: white; }
 
 .sinDeco {
   text-decoration: none;
