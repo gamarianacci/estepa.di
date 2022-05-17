@@ -29,7 +29,7 @@ $paddings: ("chico": 3%, "grande": 5%, "cero": 0);
     text-shadow: 2px 2px 2px #ADC2A9;
     color: white;
     padding-left: map-get($paddings, "grande");
-    padding-top: map-get($paddings, "chico");
+    padding-top: map-get($paddings, "grande");
 }
 
 .mainAcercaEmpresa section div p{
