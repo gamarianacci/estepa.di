@@ -270,10 +270,14 @@
     .header nav div {
       display: flex;
       justify-content: center; }
+      .header nav div div a {
+        padding: 10px; }
   #logosRedesSociales {
     width: 50%; } }
 
 @media (max-width: 416px) {
   .header nav {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+    .header nav div div a {
+      padding: 10px; } }
