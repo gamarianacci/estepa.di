@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF5ED;
+    justify-content: space-around;
+    padding: 3%;
+    div {
+        display: flex;
+        justify-content: space-between;
+        ul {
+            list-style: none;
+            li {
+                a {
+                    font-family: 'Open Sans', sans-serif;
+                    color: black;
+                    text-shadow: 2px 2px 2px #ADC2A9;
+                    font-size: 1rem;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+        div {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding-right: 3%;
+        }
+    }
+}
+
+#redes {
+    width: 20%;
+}
+
+#derechosAutor {
+    justify-content: center;
+}

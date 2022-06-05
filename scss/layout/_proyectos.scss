@@ -1,0 +1,27 @@
+.mainProyectos {
+    background-color: #99a799;
+    padding-bottom: 3%;
+    section {
+        h1 {
+            font-size: 4rem;
+            font-family: 'Open Sans', sans-serif;
+            text-shadow: 2px 2px 2px #ADC2A9;
+            color: white;
+            padding-top: 3%;
+            text-align: center;
+        }
+        h2 {
+            font-size: 3rem;
+            font-family: 'Open Sans', sans-serif;
+            text-shadow: 2px 2px 2px #ADC2A9;
+            color: white;
+            padding-bottom: 2%;
+            padding-top: 3%;
+            text-align: center;
+        }
+    }
+    div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

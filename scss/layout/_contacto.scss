@@ -1,0 +1,79 @@
+.mainContacto {
+    background-color: #99a799;
+    section {
+        div {
+            display: flex;
+            justify-content: center;
+            form {
+                display: flex;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-bottom: 5%;
+                border-radius: 1%;
+                border: 2px solid black;
+                background-color: #D3E4CD;
+                color: black;
+                font-size: 1.5rem;
+                margin-bottom: 3%;
+                legend {
+                    display: flex;
+                    font-size: 2.5rem;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    justify-content: center;
+                }
+                fieldset {
+                    border-color: transparent;
+                }
+                label {
+                    display: flex;
+                    font-size: 1.5rem;
+                    padding: 2%;
+                }
+                textarea {
+                    border: 2px solid black;
+                    border-radius: 0.5vh;
+                    background-color: #f6f6f6;
+                    margin-top: 10%;
+                    margin-bottom: 5%;
+                    padding: 2%;
+                    width: 100%;
+                    font-size: 1rem;
+                }
+
+                input[type="text"],
+                input[type="email"],
+                input[type="number"] {
+                    display: flex;
+                    width: 100%;
+                    border: 2px solid black;
+                    border-radius: 2%;
+                    background-color: white;
+                }
+                input[type="submit"],
+                input[type="reset"] {
+                    display: block;
+                    width: 100%;
+                    padding: 2%;
+                    margin-top: 3.3vh;
+                    border: 0.2vh solid #000;
+                    border-radius: 3%;
+                    color: #fff;
+                    background-color: #000;
+                }
+                input[type="submit"]:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        h1 {
+            font-size: 3rem;
+            font-family: 'Open Sans', sans-serif;
+            text-shadow: 2px 2px 2px #ADC2A9;
+            color: white;
+            padding-top: 3%;
+            padding-bottom: 2%;
+            text-align: center;
+        }
+    }
+}
